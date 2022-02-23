@@ -1,7 +1,7 @@
 **# java-tomcat-maven-example
 Prerequisites:**
 
-Edit tomcat-users.xml in tomcat ::
+Edit /usr/share/tomcat/conf/tomcat-users.xml/tomcat-users.xml in tomcat ::
 
 	<role rolename="tomcat"/>
 	<role rolename="admin-script"/>
@@ -15,7 +15,7 @@ Edit tomcat-users.xml in tomcat ::
 	<user password="password" roles="manager-gui" username="admin"/>
 	<user password="password" roles="admin,admin-script,manager-gui,manager-script,manager-jmx,manager-status" username="admin"/>
 
-Edit settings.xml in maven ::
+Edit /etc/maven/settings.xml in maven ::
 
 	<server>
 	<id>TomcatServer</id>
