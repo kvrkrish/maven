@@ -1,3 +1,6 @@
+# Tomcat installatin : 
+sudo yum install tomcat tomcat-webapps tomcat-admin-webapps tomcat-docs-webapp tomcat-javadoc -y
+
 **# java-tomcat-maven-example
 Prerequisites:**
 
