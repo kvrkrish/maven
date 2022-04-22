@@ -39,6 +39,10 @@ Deploying Project War files to Tomcat using Maven ::
 
 --------------------------------
 **Automation:**
+
+NEXUS INSTALLATION ::
+-------------------
+
 Deploying Project snapshots to nexus using Maven ::
 
 Automation: Deploying Project snapshots to nexus using Maven ::
