@@ -61,7 +61,7 @@ tar -xzvf nexus-latest-bundle.tar.gz && version=$(ls | grep -v latest | grep 'ne
 
 cp /opt/nexus/nexus/bin/nexus /etc/init.d/
 
-sed -i.bak -e 's/NEXUS_HOME=".."/NEXUS_HOME="/opt/nexus/nexus"/' /etc/init.d/nexus
+sed -i.bak -e 's/NEXUS_HOME=\"..\"/NEXUS_HOME=\"\/opt\/nexus\/nexus\"/' /etc/init.d/nexus
 
 sed -i.bak -e 's|nexus-webapp-context-path=/nexus|nexus-webapp-context-path=/|' /opt/nexus/nexus/conf/nexus.properties
 
